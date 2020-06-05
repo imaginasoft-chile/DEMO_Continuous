@@ -1,0 +1,548 @@
+@charset "utf-8";
+
+/* ----------------------------------
+
+Name: style.css
+Version: 1.0
+
+-------------------------------------
+Table of contents
+
+    01. Google font
+    02. Reset
+    03. Typography
+    04. Hover
+    05. Height
+    06. Width
+    07. Float
+    08. Bottom
+    09. Margin
+    10. Color
+    11. Padding
+    12. Border
+    13. Font Size
+    14. Line Height
+    15. Banner
+    16. Button
+    17. Position
+    18. Top Social Link
+    19. Navigation Bar
+    20. Counter Section
+    21. Transition
+    22. OverFlow
+    23. Shape Box
+    24. Z Index
+    25. Display Block
+    26. Volunteer
+    27. Footer Section
+
+*/
+
+/* ===================================
+    Google font
+====================================== */
+
+@import url('https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900');
+
+/* ===================================
+    Reset
+====================================== */
+body{color:#777; font-size: 16px; font-weight: 400; font-family: 'Lato', sans-serif; line-height: 28px}
+.carousel-inner {overflow: hidden}
+label {font-size: 16px;font-family: 'Lato', sans-serif;color: #777;}
+.navbar {margin-bottom: 0}
+ul{margin: 0; padding: 0; list-style-type:none}
+a:hover{text-decoration: none}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{margin: 0}
+p{margin-bottom: 0;}
+a{text-decoration: none; color: #777}
+figure{margin: 0}
+.error-div{    background-color: #e42b2b;
+    color: #fff;
+    padding: 15px;}
+ .success-div{    background-color: #28a745;
+    color: #fff;
+    padding: 15px;}
+/* ===================================
+    Typography
+====================================== */
+/*font family*/
+.oswald_font {font-family: 'Oswald', sans-serif;}
+.lato_font{font-family: 'Lato', sans-serif;}
+/* ===================================
+    Border
+====================================== */
+.border_tb{border-top: 1px solid #ccc; border-bottom: 1px solid #ccc}
+/* ===================================
+    Letter Spacing
+====================================== */
+.letter_spacing_2{letter-spacing: 2px}
+/* ===================================
+    Margin
+====================================== */
+.margin_0_auto{margin: 0 auto}
+/*margin*/
+.margin_lr_30       {margin: 0 30px}
+/*Margin Bottom*/
+.margin_bottom_5    {margin-bottom: 5px}
+.margin_bottom_10   {margin-bottom: 10px}
+.margin_bottom_15   {margin-bottom: 15px}
+.margin_bottom_20   {margin-bottom: 20px}
+.margin_bottom_25   {margin-bottom: 25px}
+.margin_bottom_26   {margin-bottom: 26px}
+.margin_bottom_30   {margin-bottom: 30px}
+.margin_bottom_35   {margin-bottom: 35px}
+.margin_bottom_40   {margin-bottom: 40px}
+.margin_bottom_50   {margin-bottom: 50px}
+.margin_bottom_53   {margin-bottom: 53px}
+.margin_bottom_60   {margin-bottom: 60px}
+.margin_bottom_65   {margin-bottom: 65px}
+.margin_bottom_70   {margin-bottom: 70px}
+.margin_bottom_75   {margin-bottom: 75px}
+.margin_bottom_80   {margin-bottom: 80px}
+.margin_bottom_85   {margin-bottom: 85px}
+.margin_bottom_90   {margin-bottom: 90px}
+.margin_bottom_95   {margin-bottom: 95px}
+.margin_bottom_100  {margin-bottom: 100px}
+
+/*Margin Right*/
+.margin_right_14    {margin-right: 14px}
+.margin_right_10    {margin-right: 10px}
+.margin_right_15    {margin-right: 15px}
+.margin_right_20    {margin-right: 20px}
+.margin_right_30    {margin-right: 30px}
+.margin_right_60    {margin-right: 60px}
+
+/*Margin Left*/
+.margin_left_14     {margin-left: 14px}
+.margin_left_10     {margin-left: 10px}
+.margin_left_15     {margin-left: 15px}
+.margin_left_20     {margin-left: 20px}
+.margin_left_30     {margin-left: 30px}
+.margin_left_50     {margin-left: 50px}
+.margin_left_60     {margin-left: 60px}
+.margin_left_100    {margin-left: 100px}
+
+/*Margin Top*/
+.margin_top_10      {margin-top: 10px}
+.margin_top_15      {margin-top: 15px}
+.margin_top_20      {margin-top: 20px}
+.margin_top_25      {margin-top: 25px}
+.margin_top_30      {margin-top: 30px}
+.margin_top_40      {margin-top: 40px}
+.margin_top_35      {margin-top: 35px}
+.margin_top_50      {margin-top: 50px}
+.margin_top_60      {margin-top: 60px}
+.margin_top_80      {margin-top: 80px}
+.margin_top_90      {margin-top: 90px}
+.margin_top_95      {margin-top: 95px}
+.margin_top_100     {margin-top: 100px}
+
+/* ===================================
+     Color
+====================================== */
+/*Colors*/
+.color_fff{color: #fff}
+.color_454545{color: #454545}
+.color_ff7c55{color: #ff7c55}
+.color_777   {color: #777}
+
+/*Background Colors*/
+
+.bg_fff {background-color: #fff}
+.bg_282828{background-color: #282828}
+.bg_ebebeb{background-color: #ebebeb}
+.bg_272727{background-color: #272727}
+.bg_303030{background-color: #303030}
+.bg_f5f5f5{background-color: #f5f5f5}
+/* ===================================
+    padding
+====================================== */
+
+/*padding*/
+.no_padding     {padding: 0}
+.padding_10     {padding: 10px}
+.padding_15     {padding: 15px}
+.padding_30     {padding: 30px}
+.padding_50     {padding: 50px}
+.padding_lr_95  {padding: 0 95px}
+.padding_tb_15  {padding: 15px 0}
+.padding_tb_20  {padding: 20px 0}
+.padding_tb_30  {padding: 30px 30px}
+.padding_tb_40  {padding: 40px 0}
+
+/*padding top*/
+.padding_top_5      {padding-top: 5px}
+.padding_top_8      {padding-top: 8px}
+.padding_top_10     {padding-top: 10px}
+.padding_top_13     {padding-top: 13px}
+.padding_top_15	    {padding-top: 15px}
+.padding_top_20     {padding-top: 20px}
+.padding_top_21     {padding-top: 21px}
+.padding_top_25     {padding-top: 25px}
+.padding_top_30     {padding-top: 30px}
+.padding_top_35     {padding-top: 35px}
+.padding_top_40     {padding-top: 40px}
+.padding_top_45	    {padding-top: 45px}
+.padding_top_50     {padding-top: 50px}
+.padding_top_60     {padding-top: 60px}
+.padding_top_70     {padding-top: 70px}
+.padding_top_80     {padding-top: 80px}
+.padding_top_90     {padding-top: 90px}
+.padding_top_95     {padding-top: 95px}
+.padding_top_100    {padding-top: 100px}
+.padding_top_105    {padding-top: 105px}
+.padding_top_120    {padding-top: 120px}
+.padding_top_150    {padding-top: 150px}
+.padding_top_130    {padding-top: 130px}
+.padding_top_235    {padding-top: 235px}
+.padding_top_200    {padding-top: 200px}
+.padding_top_284    {padding-top: 284px}
+.padding_top_300    {padding-top: 300px}
+
+/*padding bottom*/
+.padding_bottom_5   {padding-bottom: 5px}
+.padding_bottom_8   {padding-bottom: 8px}
+.padding_bottom_10	{padding-bottom: 10px}
+.padding_bottom_13  {padding-bottom: 13px}
+.padding_bottom_15	{padding-bottom: 15px}
+.padding_bottom_17  {padding-bottom: 17px}
+.padding_bottom_20  {padding-bottom: 20px}
+.padding_bottom_21  {padding-bottom: 21px}
+.padding_bottom_25  {padding-bottom: 25px}
+.padding_bottom_30  {padding-bottom: 30px}
+.padding_bottom_35  {padding-bottom: 35px}
+.padding_bottom_40  {padding-bottom: 40px}
+.padding_bottom_50  {padding-bottom: 50px}
+.padding_bottom_45	{padding-bottom: 45px}
+.padding_bottom_55  {padding-bottom: 55px}
+.padding_bottom_60  {padding-bottom: 60px}
+.padding_bottom_65  {padding-bottom: 65px}
+.padding_bottom_70  {padding-bottom: 70px}
+.padding_bottom_75  {padding-bottom: 75px}
+.padding_bottom_80  {padding-bottom: 80px}
+.padding_bottom_85  {padding-bottom: 85px}
+.padding_bottom_85  {padding-bottom: 85px}
+.padding_bottom_90  {padding-bottom: 90px}
+.padding_bottom_100 {padding-bottom: 100px}
+.padding_bottom_150 {padding-bottom: 150px}
+.padding_bottom_235 {padding-bottom: 235px}
+.padding_bottom_400 {padding-bottom: 400px}
+.padding_bottom_120 {padding-bottom: 120px}
+
+/*padding left*/
+.padding_left_0     {padding-left: 0}
+.padding_left_10    {padding-left: 10px}
+.padding_left_15    {padding-left: 15px}
+.padding_left_20    {padding-left: 20px}
+.padding_left_25    {padding-left: 25px}
+.padding_left_30	{padding-left: 30px}
+.padding_left_40    {padding-left: 40px}
+.padding_left_50    {padding-left: 50px}
+.padding_left_55    {padding-left: 55px}
+.padding_left_58    {padding-left: 58px}
+.padding_left_60    {padding-left: 60px}
+.padding_left_70    {padding-left: 70px}
+.padding_left_75    {padding-left: 75px}
+.padding_left_80    {padding-left: 80px}
+.padding_left_85    {padding-left: 85px}
+.padding_left_95    {padding-left: 95px}
+.padding_left_100   {padding-left: 100px}
+
+/*padding right*/
+.padding_right_0    {padding-right: 0}
+.padding_right_10   {padding-right: 10px}
+.padding_right_15   {padding-right: 15px}
+.padding_right_20   {padding-right: 20px}
+.padding_right_30	{padding-right: 30px}
+.padding_right_40   {padding-right: 40px}
+.padding_right_50   {padding-right: 50px}
+.padding_right_55   {padding-right: 55px}
+.padding_right_58   {padding-right: 58px}
+.padding_right_60   {padding-right: 60px}
+.padding_right_70   {padding-right: 70px}
+.padding_right_75   {padding-right: 75px}
+.padding_right_80   {padding-right: 80px}
+
+/* ===================================
+     Font Size
+====================================== */
+/*Font Size*/
+.font_size_12   {font-size: 12px}
+.font_size_14   {font-size: 14px}
+.font_size_16   {font-size: 16px}
+.font_size_18   {font-size: 18px}
+.font_size_20   {font-size: 20px}
+.font_size_22   {font-size: 22px}
+.font_size_24   {font-size: 24px}
+.font_size_26   {font-size: 26px}
+.font_size_28   {font-size: 28px}
+.font_size_30   {font-size: 30px}
+.font_size_32   {font-size: 32px}
+.font_size_34   {font-size: 34px}
+.font_size_36   {font-size: 36px}
+.font_size_40   {font-size: 40px}
+.font_size_42   {font-size: 42px}
+.font_size_44   {font-size: 44px}
+.font_size_48   {font-size: 48px}
+.font_size_50   {font-size: 50px}
+.font_size_60   {font-size: 60px}
+.font_size_64   {font-size: 64px}
+.font_size_70   {font-size: 70px}
+.font_size_80   {font-size: 80px}
+.font_size_90   {font-size: 90px}
+.font_size_100   {font-size: 100px}
+
+/*Font weight*/
+.font_weight_100{font-weight: 100}
+.font_weight_300{font-weight: 300}
+.font_weight_400{font-weight: 400}
+.font_weight_500{font-weight: 500}
+.font_weight_600{font-weight: 600}
+.font_weight_700{font-weight: 700}
+.font_weight_900{font-weight: 900}
+/* ===================================
+     Line Height
+====================================== */
+/*Line Height*/
+.line_height_18    {line-height: 18px}
+.line_height_22    {line-height: 22px}
+.line_height_24    {line-height: 24px}
+.line_height_25    {line-height: 25px}
+.line_height_28    {line-height: 28px}
+.line_height_30    {line-height: 30px}
+.line_height_34    {line-height: 34px}
+.line_height_36    {line-height: 36px}
+.line_height_40    {line-height: 40px}
+.line_height_42    {line-height: 42px}
+.line_height_48    {line-height: 48px}
+.line_height_54    {line-height: 54px}
+.line_height_65    {line-height: 65px}
+.line_height_80    {line-height: 80px}
+.line_height_82    {line-height: 82px}
+.line_height_110    {line-height: 110px}
+
+/*Height*/
+.height_24{height: 24px}
+
+/* ===================================
+     Button
+====================================== */
+.btn_banner{display: inline-block; font-size: 20px; font-weight: 300; color: #fff; background-color: #ff7c55; padding: 15px 50px; float: right; transition: all ease-in-out 0.5s}
+.btn_about_us{display: inline-block; font-size: 20px; font-weight: 300; color: #777; border: 1px solid #454545; padding: 7px 30px; background-color: transparent; transition: all ease-in-out 0.5s}
+.btn_view_menu{display: inline-block; font-size: 20px; font-weight: 300; color: #777; border: 1px solid #454545; padding: 7px 30px; background-color: transparent; transition: all ease-in-out 0.5s}
+.btn_view_full_menu{display: inline-block; font-size: 20px; font-weight: 300; color: #fff; border: 1px solid #fff; padding: 7px 30px; background-color: transparent; transition: all ease-in-out 0.5s}
+.btn_blog_post{display: inline-block; font-size: 16px; font-weight: 300; color: #454545; border: 1px solid #454545; padding: 3px 30px; background-color: transparent; transition: all ease-in-out 0.5s}
+/* ===================================
+         Hover
+====================================== */
+.coffee_menu_box:hover{background-color: #ff7c55}
+.coffee_menu_box:hover .product_name, .coffee_menu_box:hover .product_price{color: #fff}
+.outer_nutritionist_box:hover .hover_box{opacity: 1; z-index: 999}
+.header_navigation .menubar li a:hover{color: #ff7c55 !important;}
+.top_social_links li a i:hover{color: #ff7c55}
+.btn_banner:hover{background-color: #454545; color: #fff !important;}
+.btn_about_us:hover, .btn_view_menu:hover{background-color: #ff7c55; border: 1px solid #ff7c55; color: #fff}
+.btn_view_full_menu:hover{background-color: #ff7c55; border: 1px solid #ff7c55; color: #fff}
+.btn_blog_post:hover{background-color: #ff7c55; border: 1px solid #ff7c55; color: #fff}
+.btn:hover{background-color: #fff; border: 1px solid #fff; color: #454545}
+.hover_team li i:hover{color: #fff}
+/* ===================================
+      Navigation Bar
+====================================== */
+.header_navigation .menubar li a{font-size: 18px; color: #fff; font-weight: 400; text-transform: uppercase; padding: 10px 0; margin: 0 15px; transition: all ease-in-out 0.5s}
+.header_navigation .menubar li:first-child a{margin-left: 0}
+.header_navigation .menubar li:last-child a{margin-right: 0}
+
+.top_social_links li{display: inline-block}
+.top_social_links li a i{font-size: 16px; color: #fff; transition: all ease-in-out 0.5s}
+.top_social_links li a {margin:0 5px}
+.top_social_links li:first-child a {margin-left: 0}
+.top_social_links li:last-child a {margin-right: 0}
+.navbar-toggler{padding:4px 8px}
+/* ===================================
+     Banner
+====================================== */
+.bg_home_page{background: url("../images/bg_home_banner.jpg") no-repeat center fixed; background-size: cover; width: 100%; height: 800px; display: table}
+.inner_home_banner{display: table-cell; vertical-align: bottom; text-align: left; padding-bottom: 100px}
+.inner_subpage_banner{display: table-cell; vertical-align: middle; text-align: center}
+.banner_button{right: 0; bottom: 0}
+.bg_menu_page{background: url("../images/bg_menu_banner.jpg") no-repeat center fixed; background-size: cover; width: 100%; height: 292px; display: table}
+.bg_about_page{background: url("../images/bg_about_banner.jpg") no-repeat center fixed; background-size: cover; width: 100%; height: 292px; display: table}
+.bg_contact_page{background: url("../images/bg_contact_banner.jpg") no-repeat center; background-size: cover; width: 100%; height: 292px; display: table}
+.banner_slider_indicators{bottom: -60px}
+/* ===================================
+      White Wave
+====================================== */
+.white_wave, .black_wave{margin-top: -70px}
+.reverse_white_wave{margin-bottom: -70px}
+.reverse_black_wave{margin-bottom: -72px}
+/* ===================================
+      Coffee Menu Section
+====================================== */
+.coffee_menu_box{padding: 75px 0; transition: all ease-in-out 0.5s}
+.product_name, .feature_name{font-size: 24px; color: #454545; font-weight: 400; font-family: 'Oswald', sans-serif; margin-bottom: 10px; transition: all ease-in-out 0.5s}
+.product_price{font-size: 24px; color: #ff7c55; font-weight: 400; font-family: 'Oswald', sans-serif; transition: all ease-in-out 0.5s}
+.owl-carousel .owl-item img{width: auto; margin: 0 auto}
+.coffee_menu_section, .menu_section{position: relative}
+.coffee_menu_section:before, .menu_section:before{position: absolute; content: ""; background: url("../images/white_wave.png") no-repeat center; left: 0; top: -85px; width: 100%; height: 87px; background-size: cover}
+.coffee_menu_section:after{position: absolute; content: ""; background: url("../images/reverse_white_wave.png") no-repeat center; left: 0; bottom: -85px; width: 100%; height: 87px; background-size: cover}
+/* ===================================
+      Our Feature Section
+====================================== */
+.outer_feature_box{transition: all ease-in-out 0.5s}
+.feature_detail_box:hover .feature_name{color: #ff7c55}
+.feature_detail_box:hover .outer_feature_img{background-color: #ff7c55; transform: translateY(-20px)}
+.feature_detail_box:hover .outer_feature_img_box01{background: url("../images/hover_visit_us.png")}
+.feature_detail_box:hover .outer_feature_img_box02{background: url("../images/hover_brewing.png")}
+.feature_detail_box:hover .outer_feature_img_box03{background: url("../images/hover_masterclass.png")}
+.feature_detail_box:hover .outer_feature_img_box04{background: url("../images/hover_recipes.png")}
+.outer_feature_img{width: 127px; height: 127px; border-radius: 100%; background-color: #fff; display: table; margin: 0 auto; position: relative; transition: all ease-in-out 0.5s}
+.outer_feature_img_box01{position: absolute; content:"";background: url("../images/visit_us.png"); width: 64px; height: 64px; left:0; right: 0; margin: 0 auto; top: 26%; transition: all ease-in-out 0.5s}
+.outer_feature_img_box02{position: absolute; content:"";background: url("../images/brewing.png"); width: 64px; height: 60px; left:0; right: 0; margin: 0 auto; top: 26%; transition: all ease-in-out 0.5s}
+.outer_feature_img_box03{position: absolute; content:"";background: url("../images/masterclass.png"); width: 64px; height: 60px; left:0; right: 0; margin: 0 auto; top: 26%; transition: all ease-in-out 0.5s}
+.outer_feature_img_box04{position: absolute; content:"";background: url("../images/recipes.png"); width: 64px; height: 60px; left:0; right: 0; margin: 0 auto; top: 26%; transition: all ease-in-out 0.5s}
+.our_feature_section{position: relative}
+.our_feature_section:before{position: absolute; content: ""; background: url("../images/white_wave.png") no-repeat center; background-size: cover; width: 100%; height: 87px; left: 0; top: -85px}
+/* ===================================
+      We Made Coffee Section
+====================================== */
+.bg_we_made_coffee{background: url("../images/bg_great_coffee.jpg") no-repeat center fixed; background-size: cover}
+/* ===================================
+      Our Staff Section
+====================================== */
+.outer_nutritionist_box{position: relative}
+.hover_box{background-color: #ff7c55; color: #fff; padding: 50px 30px; opacity: 0; position: absolute; top: 0; transition: all ease-in-out 0.5s}
+.hover_team li{display: inline-block}
+.hover_team li i{color: #454545; font-size: 16px; padding: 0 3px}
+.hover_team li:first-child i{padding-left: 0}
+.hover_team li:last-child i {padding-right: 0}
+/* ===================================
+      Testimonial Section
+====================================== */
+.testimonial_section, .menu_testimonial_section{position: relative}
+.testimonial_section:before{position: absolute; content: ""; background: url("../images/white_wave.png") no-repeat center; left: 0; top: -85px; width: 100%; height: 87px; background-size: cover}
+.testimonial_section:after, .menu_testimonial_section:after{position: absolute; content: ""; background: url("../images/reverse_white_wave.png") no-repeat center; left: 0; bottom: -85px; width: 100%; height: 87px; background-size: cover; z-index: 999999}
+.testimonial_indicator{bottom: -30px}
+.testimonial_indicator li{width: 11px; height: 11px; border-radius: 100%; background-color: #454545}
+.testimonial_indicator .active{background-color: #ff7c55}
+/* ===================================
+  Blog Post Section
+====================================== */
+.inner_blog_post_box{background-color: #fff}
+.date_blog_post{position: relative}
+.date_blog_post:before{position: absolute; content: ""; height: 1px; background-color: #ff7c55; width: 25%; left: 0; bottom: -15px}
+.outer_blog_img{overflow: hidden}
+.blog_post_box:hover figure img{transform: scale(1.5);}
+.blog_post_box figure img{-webkit-transition: all 10s cubic-bezier(0.39, 0.575, 0.565, 1) 0s;
+    -khtml-transition: all 10s cubic-bezier(0.39, 0.575, 0.565, 1) 0s;
+    -moz-transition: all 10s cubic-bezier(0.39, 0.575, 0.565, 1) 0s;
+    -ms-transition: all 10s cubic-bezier(0.39, 0.575, 0.565, 1) 0s;
+    -o-transition: all 10s cubic-bezier(0.39, 0.575, 0.565, 1) 0s;
+    transition: all 10s cubic-bezier(0.39, 0.575, 0.565, 1) 0s
+}
+.blog_section{position: relative}
+.blog_section:after{position: absolute; content: ""; background: url("../images/reverse_grey_wave.png") no-repeat center; left: 0; bottom: -85px; width: 100%; height: 87px; background-size: cover}
+/* ===================================
+          Get in Touch Features
+====================================== */
+.contact_section{position: relative}
+.contact_section:before{position: absolute; content: ""; background: url("../images/black_wave.png") no-repeat center; left: 0; top: -85px; width: 100%; height: 87px; background-size: cover}
+.contact_section:after{position: absolute; content: ""; background: url("../images/reverse_black_wave.png") no-repeat center; left: 0; bottom: -85px; width: 100%; height: 87px; background-size: cover}
+.form-control{font-size: 16px; /*padding: 15px; border: none; border-bottom: 1px dashed #777;*/ background-color: transparent}
+.form-control:focus{background-color: transparent; border-bottom: 1px dashed #777; outline: none; box-shadow: none}
+.btn{float: left; /*background-color: #ff7c55; */font-size: 16px; font-weight: 400; color: #fff; padding: 2px 20px; margin-top: 0px; transition: all ease-in-out 0.5s}
+.weekly_schedule li{text-align: left; font-size: 16px; line-height: 32px; color:#777}
+.weekly_schedule li span{float: right}
+.contact_details{margin: 10px 0}
+.contact_details li{text-align: left; padding: 20px 0 20px 70px; position: relative}
+.contact_details li:first-child:before{position: absolute; content: ""; background: url("../images/map_marker.png"); width: 24px; height: 32px; left: 10px; top: 25px}
+.contact_details li:nth-child(2):before{position: absolute; content: ""; background: url("../images/phone.png"); width: 32px; height: 32px; left: 10px; top: 15px}
+.contact_details li:last-child:before{position: absolute; content: ""; background: url("../images/email.png"); width: 32px; height: 24px; left: 10px; top: 20px}
+.contact_details li span{font-size: 18px; font-weight: 300; color: #777}
+.contact_details li a i{font-size: 32px; color: #777}
+/* ===================================
+      Footer Section
+====================================== */
+.footer_logo>li:first-child{margin-bottom: 25px}
+.footer_logo>li{font-size: 14px; line-height: 20px; font-weight: 400; color: #fff}
+.footer_pages_link h4{font-size: 18px; line-height: 20px; font-weight: 400; color: #fff; font-family: 'Oswald', sans-serif; margin-bottom: 25px}
+.footer_social_links>li{display: inline-block; padding: 0 3px}
+.footer_social_links>li:first-child{padding-left: 0}
+.footer_social_links>li:last-child{padding-right: 0}
+.footer_social_links>li>a{width: 34px; height: 34px; border-radius: 100%; display: table; transition: all ease-in-out 0.5s}
+.footer_social_links>li>a:hover{background-color: #ff7c55}
+.footer_social_links>li>a>i{display: table-cell; vertical-align: middle; text-align: center; color: #fff}
+.footer_pages_link_list>li>a{font-size: 14px; font-weight: 400; color: #fff; line-height: 20px; transition: all ease-in-out 0.5s}
+.footer_pages_link_list>li>a:hover{color: #ff7c55}
+/* ===================================
+      Contact Section
+====================================== */
+.contact_box{padding: 0 50px}
+.outer_contact_img{width: 127px; height: 127px; border-radius: 100%; background-color: #fff; display: table; margin: 0 auto}
+.outer_contact_img figure{display: table-cell; vertical-align: middle; text-align: center}
+
+
+#return-to-top{z-index:999999;position:fixed;bottom:40px;right:60px;background:#454545;width:50px;height:50px;text-decoration:none;-webkit-border-radius:35px;-moz-border-radius:35px;border-radius:35px;display:none;-webkit-transition:all .3s linear;-moz-transition:all .3s ease;-ms-transition:all .3s ease;-o-transition:all .3s ease;transition:all .3s ease}
+#return-to-top i{color:#fff;margin:0;position:relative;left:16px;top:12px;font-size:20px;-webkit-transition:all .3s ease;-moz-transition:all .3s ease;-ms-transition:all .3s ease;-o-transition:all .3s ease;transition:all .3s ease}
+#return-to-top i img{width:40%}
+#return-to-top:hover{background:#ff7c55;box-shadow:0px 0px 10px 2px rgba(0,0,0,0.5)}
+
+span.error{display: none !important;}
+.contact-fields.error{border-bottom: 1px dashed #ff7c55}
+span.form-success{color: #ff7c55 !important;}
+
+
+
+/* ===================================
+      Blog Page
+====================================== */
+
+.container-3 input#search{width: 100%; height: 50px; background: #2b303b; border: none; font-size: 18px; float: right; padding-left: 45px; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; margin-bottom: 40px}
+.container-3 input#search::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #fff;
+}
+.container-3 input#search::-moz-placeholder { /* Firefox 19+ */
+    color: #fff;
+}
+.container-3 input#search:-ms-input-placeholder { /* IE 10+ */
+    color: #fff;
+}
+.container-3 input#search:-moz-placeholder { /* Firefox 18- */
+    color: #fff;
+}
+.container-3 .icon{position: absolute; margin-left: 17px; margin-top: 16px; z-index: 1; color: #fff}
+.blog_post_btn{display: inline-block; font-size: 14px; color: #777; background-color: transparent; padding: 8px 30px; margin-bottom: 70px; transition: all ease-in-out 0.5s; border: 1px solid #454545}
+.blog_post_btn:hover{background-color: #ff7c55; border: 1px solid #ff7c55; color: #fff}
+.first_news_box p{margin-bottom: 30px}
+.side_links{padding-top: 20px}
+.side_links li{color: #243049; padding: 15px 0 15px 0; border-top: 1px solid #dddddd}
+.side_links li:first-child{border-top: 1px solid #ff7c55}
+.side_links li a{font-size: 14px; font-weight: 400; color: #777}
+.side_links li span{float: right; color: #777; font-size: 14px; font-weight: 600}
+.tag_buttons li{background-color: #f5f5f5; padding: 10px; margin: 5px; float: left; font-size: 12px}
+.tag_buttons li:hover{background-color: #ff7c55}
+.tag_buttons li:hover a{color: #fff}
+.input_fields{padding: 10px; padding-left: 5px; border: 1px solid #e6e6e6; width: 100%; margin-bottom: 10px}
+.submit_button{padding: 6px 32px; float: right; font-size: 14px; font-weight: 500; background-color: transparent; border: 1px solid #454545; color: #777; transition:  all ease-in-out 0.5s}
+.btn_comment_box{padding: 10px 40px; color: #fff; background-color: #ff7c55; border: none}
+.post_comment_button{float: left; font-size: 18px; font-weight: 400; padding: 10px 40px; background-color: #ff7c55; color: #fff; border: none; margin-top: 30px; border-radius: 32px}
+.btn_blog_post:hover{background-color: #ff7c55; color: #fff; border: 1px solid #ff7c55}
+.submit_button:hover{background-color: #ff7c55; color: #fff; border: 1px solid #ff7c55}
+.submit_button:focus{outline: none}
+.social_links li{display: inline-block}
+.social_links li a{width: 35px; height: 35px; background-color: #d4d4d4; border-radius: 100%; display: table; transition: all ease-in-out 0.5s}
+.social_links li:hover a{background-color: #ff7c55}
+.social_links li a i{display: table-cell; vertical-align: middle; text-align: center; font-size: 20px; color: #fff}
+.comments_heading, .post_comment{border-bottom: 1px solid #ddd; padding-bottom: 20px}
+.inner_comment_box{padding: 30px}
+.post_comment_button{margin-bottom: 100px}
+
+
+@media only screen and (min-width: 992px){
+    .menubar li:hover .dropdown_menu {display: block}
+    .menubar li:hover .dropdown_submenu {display: block}
+    .menubar li:hover .dropdown_company {display: block}
+
+}

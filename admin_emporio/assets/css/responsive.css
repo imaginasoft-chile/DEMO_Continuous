@@ -1,0 +1,66 @@
+@media only screen and (max-width: 1199px){
+    .banner_slider{bottom: -65px}
+    .padding_top_150{padding-top: 100px}
+    .padding_bottom_235{padding-bottom: 135px}
+    .white_wave, .black_wave{margin-top: -45px}
+    .reverse_white_wave, .reverse_black_wave{margin-bottom: -45px}
+    .padding_top_235{padding-top: 135px}
+    .padding_bottom_150{padding-bottom: 100px}
+    .client_comment_box{padding: 0 60px}
+}
+@media only screen and (max-width: 991px) {
+    .navbar-toggler-icon{background: url("../images/toogle_button.svg")}
+    .bg_home_page{height: 600px}
+    .inner_home_banner{vertical-align: middle; padding-bottom: 0}
+    .font_size_100{font-size: 72px}
+    .line_height_110{line-height: 84px}
+    .font_size_50{font-size: 36px}
+    .line_height_40{line-height: 24px}
+    body{font-size: 14px; line-height: 24px}
+    .margin_bottom_50{margin-bottom: 25px}
+    .white_wave, .black_wave{margin-top: -35px}
+    .outer_coffee_menu_box, .outer_nutritionist_box{margin: 0 auto}
+    .reverse_white_wave, .reverse_black_wave{margin-bottom: -35px}
+    .outer_feature_box{margin-bottom: 25px}
+    .padding_bottom_120{padding-bottom: 75px}
+    .padding_top_120{padding-top: 75px}
+    .hover_box{padding: 0}
+
+}
+@media only screen and (max-width: 767px){
+    .bg_home_page{height: 400px}
+    .h3, h3{font-size: 18px}
+    .font_size_100{font-size: 36px}
+    .line_height_110{line-height: 42px}
+    .btn_banner{font-size: 14px; padding: 5px 20px}
+    .padding_top_150, .padding_top_100, .padding_top_235{padding-top: 50px}
+    .coffee_shope_content_box{margin-bottom: 25px}
+    .padding_bottom_235, .padding_bottom_100{padding-bottom: 50px}
+    .white_wave {margin-top: -22px}
+    .black_wave{margin-top: -19px}
+    .reverse_white_wave, .reverse_black_wave{margin-bottom: -19px}
+    .outer_blog_post_box{margin-bottom: 25px}
+    .padding_tb_15{padding: 15px}
+    .footer_links{display: none}
+    .footer_column{text-align: center}
+    a.logo img{width: 65%}
+    .inner_home_banner{vertical-align: bottom; padding-bottom: 50px}
+    .banner_slider_indicators{bottom: -30px}
+    .font_size_18{font-size: 14px}
+    .coffee_menu_section:before, .coffee_menu_section:after, .testimonial_section:before, .testimonial_section:after, .contact_section:before, .contact_section:after, .our_feature_section:before, .blog_section:after, .coffee_menu_section:before, .menu_section:before, .testimonial_section:after, .menu_testimonial_section:after, .contact_infO_details{display: none}
+    .font_size_40{font-size: 28px; line-height: 36px}
+    .font_size_20{font-size: 16px; line-height: 24px}
+    .client_comment_box{padding: 0 15px}
+    .footer_logo li a figure img{width: 20%}
+    .top_social_links{display: none}
+    #return-to-top{right: 40px; bottom:20px}
+    .header_navigation .menubar li:first-child a{margin-left: 15px}
+    .font_size_60{font-size: 36px}
+    .blog_post_image{margin-bottom: 20px; text-align: left}
+    .font_size_26{font-size: 18px}
+    .blog_post_btn{font-size: 12px; padding: 5px 20px}
+    .inner_comment_box{margin-top: 15px}
+    .banner_button{left: 20px; bottom: -40px; right: auto}
+    .carousel-inner{padding-bottom: 50px}
+    .btn{margin-top: 20px}
+}

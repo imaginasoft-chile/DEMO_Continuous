@@ -1,0 +1,492 @@
+@charset "utf-8";
+
+/* ----------------------------------
+
+Name: style.css
+Version: 1.0
+
+-------------------------------------
+Table of contents
+
+    01. Google font
+    02. Reset
+    03. Typography
+    04. Hover
+    05. Height
+    06. Width
+    07. Float
+    08. Bottom
+    09. Margin
+    10. Color
+    11. Padding
+    12. Border
+    13. Font Size
+    14. Line Height
+    15. Banner
+    16. Button
+    17. Position
+    18. Top Social Link
+    19. Navigation Bar
+    20. Counter Section
+    21. Transition
+    22. OverFlow
+    23. Shape Box
+    24. Z Index
+    25. Display Block
+    26. Footer Section
+
+*/
+
+/* ===================================
+    Google font
+====================================== */
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800,900');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900');
+
+/* ===================================
+    Reset
+====================================== */
+html {scroll-behavior: smooth}
+body{color:#000; font-size: 18px; font-weight: 400; font-family: 'Raleway', sans-serif; line-height: 24px}
+.carousel-inner {overflow: hidden}
+.navbar {margin-bottom: 0}
+ul{margin: 0; padding: 0; list-style-type:none}
+a:hover{text-decoration: none}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{margin: 0}
+.error-div{    background-color: #e42b2b;
+    color: #fff;
+    padding: 15px;}
+
+p{margin-bottom: 0;}
+a{text-decoration: none; color: #777}
+figure{margin: 0}
+h2{font-size: 48px; font-weight: 700; color: #512517; margin-bottom: 30px; font-family: "Playfair Display", sans-serif}
+h4{font-size: 18px; line-height: 36px; color: #000; font-weight: 700; font-family: "Playfair Display", sans-serif}
+/* ===================================
+    Typography
+====================================== */
+/*font family*/
+.raleway_font {font-family: 'Raleway', sans-serif;}
+.playfair_display_font{font-family: 'Playfair Display', serif;}
+/* ===================================
+    Border
+====================================== */
+.border_tb{border-top: 1px solid #ccc; border-bottom: 1px solid #ccc}
+/* ===================================
+    Letter Spacing
+====================================== */
+.letter_spacing_2{letter-spacing: 2px}
+/* ===================================
+    Margin
+====================================== */
+.margin_0_auto{margin: 0 auto}
+/*margin*/
+.margin_lr_30       {margin: 0 30px}
+/*Margin Bottom*/
+.margin_bottom_5    {margin-bottom: 5px}
+.margin_bottom_10   {margin-bottom: 10px}
+.margin_bottom_15   {margin-bottom: 15px}
+.margin_bottom_20   {margin-bottom: 20px}
+.margin_bottom_25   {margin-bottom: 25px}
+.margin_bottom_26   {margin-bottom: 26px}
+.margin_bottom_30   {margin-bottom: 30px}
+.margin_bottom_35   {margin-bottom: 35px}
+.margin_bottom_40   {margin-bottom: 40px}
+.margin_bottom_50   {margin-bottom: 50px}
+.margin_bottom_53   {margin-bottom: 53px}
+.margin_bottom_60   {margin-bottom: 60px}
+.margin_bottom_65   {margin-bottom: 65px}
+.margin_bottom_70   {margin-bottom: 70px}
+.margin_bottom_75   {margin-bottom: 75px}
+.margin_bottom_80   {margin-bottom: 80px}
+.margin_bottom_85   {margin-bottom: 85px}
+.margin_bottom_90   {margin-bottom: 90px}
+.margin_bottom_95   {margin-bottom: 95px}
+.margin_bottom_100  {margin-bottom: 100px}
+
+/*Margin Right*/
+.margin_right_14    {margin-right: 14px}
+.margin_right_10    {margin-right: 10px}
+.margin_right_15    {margin-right: 15px}
+.margin_right_20    {margin-right: 20px}
+.margin_right_30    {margin-right: 30px}
+.margin_right_60    {margin-right: 60px}
+
+/*Margin Left*/
+.margin_left_14     {margin-left: 14px}
+.margin_left_10     {margin-left: 10px}
+.margin_left_15     {margin-left: 15px}
+.margin_left_20     {margin-left: 20px}
+.margin_left_30     {margin-left: 30px}
+.margin_left_50     {margin-left: 50px}
+.margin_left_60     {margin-left: 60px}
+.margin_left_100    {margin-left: 100px}
+
+/*Margin Top*/
+.margin_top_10      {margin-top: 10px}
+.margin_top_15      {margin-top: 15px}
+.margin_top_20      {margin-top: 20px}
+.margin_top_25      {margin-top: 25px}
+.margin_top_30      {margin-top: 30px}
+.margin_top_40      {margin-top: 40px}
+.margin_top_35      {margin-top: 35px}
+.margin_top_50      {margin-top: 50px}
+.margin_top_60      {margin-top: 60px}
+.margin_top_80      {margin-top: 80px}
+.margin_top_90      {margin-top: 90px}
+.margin_top_95      {margin-top: 95px}
+.margin_top_100     {margin-top: 100px}
+
+/* ===================================
+     Color
+====================================== */
+/*Colors*/
+.color_fff{color: #fff}
+.color_512517{color: #512517}
+.color_ff8c00{color: #ff8c00}
+.color_777   {color: #777}
+
+/*Background Colors*/
+
+.bg_fff {background-color: #fff}
+.bg_282828{background-color: #282828}
+.bg_ebebeb{background-color: #ebebeb}
+.bg_272727{background-color: #272727}
+.bg_303030{background-color: #303030}
+.bg_efe7e5{background-color: #efe7e5}
+
+/* ===================================
+    padding
+====================================== */
+
+/*padding*/
+.no_padding     {padding: 0}
+.padding_15     {padding: 15px}
+.padding_30     {padding: 30px}
+.padding_50     {padding: 50px}
+.padding_lr_95  {padding: 0 95px}
+.padding_tb_15  {padding: 15px 0}
+.padding_tb_20  {padding: 20px 0}
+.padding_tb_30  {padding: 30px 30px}
+.padding_tb_40  {padding: 40px 0}
+
+/*padding top*/
+.padding_top_5      {padding-top: 5px}
+.padding_top_8      {padding-top: 8px}
+.padding_top_10     {padding-top: 10px}
+.padding_top_13     {padding-top: 13px}
+.padding_top_15	    {padding-top: 15px}
+.padding_top_20     {padding-top: 20px}
+.padding_top_21     {padding-top: 21px}
+.padding_top_25     {padding-top: 25px}
+.padding_top_30     {padding-top: 30px}
+.padding_top_35     {padding-top: 35px}
+.padding_top_40     {padding-top: 40px}
+.padding_top_45	    {padding-top: 45px}
+.padding_top_50     {padding-top: 50px}
+.padding_top_60     {padding-top: 60px}
+.padding_top_70     {padding-top: 70px}
+.padding_top_80     {padding-top: 80px}
+.padding_top_90     {padding-top: 90px}
+.padding_top_95     {padding-top: 95px}
+.padding_top_100    {padding-top: 100px}
+.padding_top_105    {padding-top: 105px}
+.padding_top_120    {padding-top: 120px}
+.padding_top_150    {padding-top: 150px}
+.padding_top_130    {padding-top: 130px}
+.padding_top_235    {padding-top: 235px}
+.padding_top_200    {padding-top: 200px}
+.padding_top_284    {padding-top: 284px}
+.padding_top_300    {padding-top: 300px}
+
+/*padding bottom*/
+.padding_bottom_5   {padding-bottom: 5px}
+.padding_bottom_8   {padding-bottom: 8px}
+.padding_bottom_10	{padding-bottom: 10px}
+.padding_bottom_13  {padding-bottom: 13px}
+.padding_bottom_15	{padding-bottom: 15px}
+.padding_bottom_17  {padding-bottom: 17px}
+.padding_bottom_20  {padding-bottom: 20px}
+.padding_bottom_21  {padding-bottom: 21px}
+.padding_bottom_25  {padding-bottom: 25px}
+.padding_bottom_30  {padding-bottom: 30px}
+.padding_bottom_35  {padding-bottom: 35px}
+.padding_bottom_40  {padding-bottom: 40px}
+.padding_bottom_50  {padding-bottom: 50px}
+.padding_bottom_45	{padding-bottom: 45px}
+.padding_bottom_55  {padding-bottom: 55px}
+.padding_bottom_60  {padding-bottom: 60px}
+.padding_bottom_65  {padding-bottom: 65px}
+.padding_bottom_70  {padding-bottom: 70px}
+.padding_bottom_75  {padding-bottom: 75px}
+.padding_bottom_80  {padding-bottom: 80px}
+.padding_bottom_85  {padding-bottom: 85px}
+.padding_bottom_85  {padding-bottom: 85px}
+.padding_bottom_90  {padding-bottom: 90px}
+.padding_bottom_100 {padding-bottom: 100px}
+.padding_bottom_150 {padding-bottom: 150px}
+.padding_bottom_235 {padding-bottom: 235px}
+.padding_bottom_400 {padding-bottom: 400px}
+.padding_bottom_120 {padding-bottom: 120px}
+
+/*padding left*/
+.padding_left_0     {padding-left: 0}
+.padding_left_10    {padding-left: 10px}
+.padding_left_15    {padding-left: 15px}
+.padding_left_20    {padding-left: 20px}
+.padding_left_25    {padding-left: 25px}
+.padding_left_30	{padding-left: 30px}
+.padding_left_40    {padding-left: 40px}
+.padding_left_50    {padding-left: 50px}
+.padding_left_55    {padding-left: 55px}
+.padding_left_58    {padding-left: 58px}
+.padding_left_60    {padding-left: 60px}
+.padding_left_70    {padding-left: 70px}
+.padding_left_75    {padding-left: 75px}
+.padding_left_80    {padding-left: 80px}
+.padding_left_85    {padding-left: 85px}
+.padding_left_95    {padding-left: 95px}
+.padding_left_100   {padding-left: 100px}
+
+/*padding right*/
+.padding_right_0    {padding-right: 0}
+.padding_right_10   {padding-right: 10px}
+.padding_right_15   {padding-right: 15px}
+.padding_right_20   {padding-right: 20px}
+.padding_right_30	{padding-right: 30px}
+.padding_right_40   {padding-right: 40px}
+.padding_right_50   {padding-right: 50px}
+.padding_right_55   {padding-right: 55px}
+.padding_right_58   {padding-right: 58px}
+.padding_right_60   {padding-right: 60px}
+.padding_right_70   {padding-right: 70px}
+.padding_right_75   {padding-right: 75px}
+.padding_right_80   {padding-right: 80px}
+
+/* ===================================
+     Font Size
+====================================== */
+/*Font Size*/
+.font_size_12   {font-size: 12px}
+.font_size_14   {font-size: 14px}
+.font_size_16   {font-size: 16px}
+.font_size_18   {font-size: 18px}
+.font_size_20   {font-size: 20px}
+.font_size_22   {font-size: 22px}
+.font_size_24   {font-size: 24px}
+.font_size_26   {font-size: 26px}
+.font_size_28   {font-size: 28px}
+.font_size_30   {font-size: 30px}
+.font_size_32   {font-size: 32px}
+.font_size_34   {font-size: 34px}
+.font_size_36   {font-size: 36px}
+.font_size_40   {font-size: 40px}
+.font_size_42   {font-size: 42px}
+.font_size_44   {font-size: 44px}
+.font_size_48   {font-size: 48px}
+.font_size_50   {font-size: 50px}
+.font_size_60   {font-size: 60px}
+.font_size_64   {font-size: 64px}
+.font_size_70   {font-size: 70px}
+.font_size_80   {font-size: 80px}
+.font_size_90   {font-size: 90px}
+.font_size_100   {font-size: 100px}
+
+/*Font weight*/
+.font_weight_100{font-weight: 100}
+.font_weight_300{font-weight: 300}
+.font_weight_400{font-weight: 400}
+.font_weight_500{font-weight: 500}
+.font_weight_600{font-weight: 600}
+.font_weight_700{font-weight: 700}
+.font_weight_900{font-weight: 900}
+/* ===================================
+     Line Height
+====================================== */
+/*Line Height*/
+.line_height_18    {line-height: 18px}
+.line_height_22    {line-height: 22px}
+.line_height_24    {line-height: 24px}
+.line_height_25    {line-height: 25px}
+.line_height_28    {line-height: 28px}
+.line_height_30    {line-height: 30px}
+.line_height_34    {line-height: 34px}
+.line_height_36    {line-height: 36px}
+.line_height_40    {line-height: 40px}
+.line_height_42    {line-height: 42px}
+.line_height_48    {line-height: 48px}
+.line_height_54    {line-height: 54px}
+.line_height_65    {line-height: 65px}
+.line_height_80    {line-height: 80px}
+.line_height_82    {line-height: 82px}
+.line_height_110    {line-height: 110px}
+
+/*Height*/
+.height_24{height: 24px}
+
+/* ===================================
+            Button
+====================================== */
+.btn_banner{display: inline-block; background-color: #512517; color: #fff; font-size: 14px; font-weight: 500; border-radius: 32px; padding: 12px 38px; transition: all ease-in-out 0.5s}
+.btn_product_box{display: inline-block; background-color: #512517; color: #fff; font-size: 14px; font-weight: 500; border-radius: 32px; padding: 10px 30px; transition: all ease-in-out 0.5s}
+.btn_welcome_bakery{display: inline-block; background-color: #ff8c00; color: #fff; font-size: 14px; font-weight: 500; border-radius: 32px; padding: 10px 30px; transition: all ease-in-out 0.5s}
+.btn_whole_wheat_bread{display: inline-block; background-color: #ff8c00; border-radius: 32px; padding: 10px 40px; color: #fff; font-size: 14px; font-weight: 500; transition: all ease-in-out 0.5s}
+.btn_our_bakers{display: inline-block; background-color: #ff8c00; border-radius: 32px; padding: 10px 40px; color: #fff; font-size: 14px; font-weight: 500; transition: all ease-in-out 0.5s}
+.btn_blog_post{display: inline-block; background-color: #ff8c00; border-radius: 32px; padding: 7px 40px; color: #fff; font-size: 14px; font-weight: 500; transition: all ease-in-out 0.5s}
+.submit_btn{display: inline-block; background-color: #ff8c00; border-radius: 32px; padding: 13px 40px; color: #fff; font-size: 14px; font-weight: 500; border: none; transition: all ease-in-out 0.5s}
+/* ===================================
+            Hover
+====================================== */
+.btn_banner:hover, .btn_product_box:hover{color: #fff; background: #ff8c00; box-shadow: inset 0 0 0 24px #ff8c00;}
+.btn_welcome_bakery:hover, .btn_our_bakers:hover, .btn_blog_post:hover{background-color: #512517; box-shadow: inset 0 0 0 24px #512517; color: #fff}
+.btn_whole_wheat_bread:hover, .submit_btn:hover{background-color: #fff; box-shadow: inset 0 0 0 24px #fff; color: #000}
+.header_navigation .menubar li a:hover{color: #ff8c00}
+.product_box:hover .product_box_img figure img{-webkit-transform: scale(1.3); transform: scale(1.2)}
+.footer_pages_link_list>li>a:hover{color: #ff8c00}
+.top_social_links li a i:hover{color: #ff8c00}
+/* ===================================
+            Navigation Bar
+====================================== */
+.bg_header{position: fixed}
+.bg_header:before{position: absolute; content: "";background: url("../images/bg_header_navigation.png"); height: 110px; width: 100%; bottom: -30px}
+.header_navigation .menubar li a{font-size: 14px; color: #000; font-weight: 600; padding: 20px 0; margin: 0 30px; transition: all ease-in-out 0.5s; text-transform: uppercase}
+.header_navigation .menubar li:first-child a{margin-left: 0}
+.header_navigation .menubar li:last-child a{margin-right: 0}
+.top_social_links li{display: inline-block; padding: 0 5px}
+.top_social_links li:first-child{padding-left: 0}
+.top_social_links li:last-child{padding-right: 0}
+.top_social_links li a i{font-size: 16px; font-weight: 500; color: #000; transition: all ease-in-out 0.5s}
+/* ===================================
+            Banner
+====================================== */
+.bg_home_page{background: url("../images/bg_home_banner.jpg") no-repeat center; background-size: cover; height: 800px; display: table; width: 100%}
+.inner_home_banner{display: table-cell; vertical-align: middle; text-align: center}
+.outer_banner_text{background-color: #dfd3d0; border-radius: 100%; position: relative; margin: 0 auto; padding: 70px 30px}
+.pink_border{border: 15px solid #ece2e1; border-radius: 100%}
+.white_border{border: 15px solid #f2ecea; border-radius: 100%}
+.outer_banner_text h1, .bg_menu_page h1, .bg_about_page h1, .bg_contact_page h1{font-size: 96px; font-weight: 700; color: #512517; line-height: 72px; margin-bottom: 35px}
+.outer_banner_text h1 small, .bg_menu_page h1 small, .bg_about_page h1 small, .bg_contact_page h1 small{font-size: 48px; font-weight: 700; color: #ff8c00}
+.product_box{border-bottom: 1px solid #512517}
+.bg_menu_page{background: url("../images/bg_menu_page.jpg") no-repeat center; background-size: cover; height: 500px; display: table; width: 100%}
+.bg_about_page{background: url("../images/bg_about_page.jpg") no-repeat center; background-size: cover; height: 500px; display: table; width: 100%}
+.bg_contact_page{background: url("../images/bg_contact_page.jpg") no-repeat center; background-size: cover; height: 500px; display: table; width: 100%}
+/* ===================================
+            Product Box
+====================================== */
+.rating_star li{display: inline-block}
+.rating_star li i{font-size: 18px; color: #512517}
+.product_box_content{padding: 30px 0}
+.product_name{font-size: 24px; line-height: 30px; color: #000; font-family: "Playfair Display", sans-serif; font-weight: 700; margin-bottom: 5px}
+.product_price{font-size: 24px; line-height: 30px; color: #ff8c00; font-family: "Playfair Display", sans-serif; font-weight: 700; margin-bottom: 5px}
+.product_price strike{font-size: 16px; line-height: 30px; color: #512517; font-family: "Playfair Display", sans-serif; font-weight: 700}
+.product_box_img{overflow: hidden}
+.product_box_img figure img{-webkit-transform: scale(1); transform: scale(1); -webkit-transition: .3s ease-in-out; transition: .5s ease-in-out}
+/* ===================================
+        Welcome Bakery Section
+====================================== */
+.welcome_img01{background: url("../images/welcome_backery_img01.jpg") no-repeat center; background-size: cover; width: 100%; height: 243px; margin-bottom: 15px; position: relative}
+.welcome_img02{background: url("../images/welcome_backery_img02.jpg") no-repeat center; background-size: cover; width: 100%; height: 243px}
+.welcome_img03{background: url("../images/welcome_backery_img03.jpg") no-repeat center; background-size: cover; width: 100%; height: 243px; margin-bottom: 15px}
+.welcome_img04{background: url("../images/welcome_backery_img04.jpg") no-repeat center; background-size: cover; width: 100%; height: 243px}
+.img_margin_bottom{margin-bottom: 25px}
+.welcome_box{border: 1px solid #512517; padding: 110px 15px}
+.flex_1{flex: 1}
+/* ===================================
+        Prioduct List Section
+====================================== */
+.price_product_list{font-size: 24px; line-height: 36px; font-weight: 700; color: #ff8c00; font-family: "Playfair Display", sans-serif; margin-bottom: 30px}
+.product_img figure{overflow: hidden}
+.product_img figure img{-webkit-transform: scale(1); transform: scale(1); -webkit-transition: .3s ease-in-out; transition: .5s ease-in-out}
+.outer_product_box:hover .product_img figure img{-webkit-transform: scale(1.3); transform: scale(1.2)}
+/* ===================================
+        Whole Wheat Bread Section
+====================================== */
+.bg_whole_wheat_bread{background: url("../images/bg_whole_wheet.jpg") no-repeat center fixed; background-size: cover; padding-top: 140px; padding-bottom: 140px}
+/* ===================================
+        Our Bakers Section
+====================================== */
+.our_bakers_section{position: relative}
+.our_bakers_section:before{position: absolute; content: ""; background: url("../images/bg_our_bakers_img.jpg") no-repeat left; width: 553px; height: 690px; top: -52px; left: 0; background-size: 85%}
+/* ===================================
+        Testimonial Section
+====================================== */
+.testimonial_indicators{bottom: -100px}
+.testimonial_indicators li{width: 14px; height: 14px; border: 2px solid #512517; border-radius: 100%}
+.testimonial_indicators .active{background-color: #ff8c00; border: 2px solid #ff8c00}
+.customers_name{font-size: 18px; line-height: 24px; font-weight: 700; color: #512517; font-family: "Playfair Display", sans-serif}
+.customer_rank{font-size: 14px; line-height: 24px}
+.testimonial_image{position: relative}
+.testimonial_image:before{position: absolute; content: ""; background: url("../images/right_border.png"); width: 12px; height: 161px; right: 0}
+.testimonial_content_quote{position: relative}
+.testimonial_content_quote:before{position: absolute; content: ""; background: url("../images/testimonial_content_quote.png"); width: 63px; height: 51px; right: -80px; top: -25px}
+/* ===================================
+        Blog Post Section
+====================================== */
+.date_blog_post{font-size: 14px; line-height: 24px; color: #ff8c00; font-weight: 300; margin-bottom: 30px; position: relative}
+.date_blog_post:before{position: absolute; content: ""; height: 1px; background-color: #ff8c00; width: 15%; left: 0; bottom: -10px}
+.blog_post_img{overflow: hidden}
+.blog_post_img figure img{ -webkit-transform: scale(1); transform: scale(1); -webkit-transition: .3s ease-in-out; transition: .5s ease-in-out;}
+.blog_post_box:hover .blog_post_img figure img{-webkit-transform: scale(1.3); transform: scale(1.2)}
+/* ===================================
+        Get in Touch Features
+====================================== */
+.client_section{border-top: 1px solid #512517}
+/* ===================================
+        Footer Section
+====================================== */
+.footer_logo>li:first-child{margin-bottom: 25px}
+.footer_logo>li{font-size: 14px; line-height: 24px; font-weight: 600; color: #000}
+.footer_pages_link h4{font-size: 18px; line-height: 20px; font-weight: 600; color: #512517; font-family: 'Playfair Display', sans-serif; margin-bottom: 40px}
+.footer_social_links>li{display: inline-block; padding: 0}
+.footer_social_links>li:first-child{padding-left: 0}
+.footer_social_links>li:last-child{padding-right: 0}
+.footer_social_links>li>a{width: 34px; height: 34px; border-radius: 100%; display: table; transition: all ease-in-out 0.5s}
+.footer_social_links>li>a>i{display: table-cell; vertical-align: middle; text-align: center; color: #512517; transition: all ease-in-out 0.5s}
+.footer_pages_link_list>li>a{font-size: 14px; font-weight: 600; color: #000; line-height: 30px;}
+.footer_social_links>li>a:hover{background-color: #ff8c00}
+.footer_social_links>li>a:hover i{color: #fff}
+/* ===================================
+        Contact Section
+====================================== */
+.bg_contact_form{background: url("../images/bg_contact_form.jpg") no-repeat center fixed; background-size: cover; padding-top: 120px; padding-bottom: 150px}
+.contact_info{padding: 15px 20px; font-size: 16px; font-weight: 300; font-family: 'Raleway', sans-serif; margin-bottom: 30px}
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #000;
+}
+input::-moz-placeholder, textarea::-moz-placeholder { /* Firefox 19+ */
+    color: #000;
+}
+input:-ms-input-placeholder, textarea:-ms-input-placeholder { /* IE 10+ */
+    color: #000;
+}
+input:-moz-placeholder, textarea:-moz-placeholder { /* Firefox 18- */
+    color: #000;
+}
+/* ===================================
+        Contact Page
+====================================== */
+.contact_detail_box{border: 2px solid #ff8c00; padding: 40px 65px; background-color: #fff}
+.outer_visit_us{width: 80px; height: 80px; background-color: #ff8c00; border-radius: 100%; display: table; margin: 0 auto}
+.outer_visit_us figure{display: table-cell; vertical-align: middle; text-align: center}
+.box_name{font-size: 18px; line-height: 26px; font-weight: 700; color: #512517; font-family: 'Playfair Display', sans-serif; text-transform: uppercase; margin: 30px 0}
+.inner_contact_details{font-size: 16px; line-height: 26px; font-weight: 300}
+/* ===================================
+        Map Section
+====================================== */
+.contact_map_section{position: relative}
+.contact_map_section:before{position: absolute; content: ""; background: url("../images/top_wave.png"); width: 100%; height: 94px; top: -30px}
+
+
+
+span.error{display: none !important;}
+.contact_info.error{border: 1px solid red}
+.contact_info:focus{outline: none}
+span.form-success{color: green !important;}
+
+@media only screen and (min-width: 992px){
+    .menubar li:hover .dropdown_menu {display: block}
+    .menubar li:hover .dropdown_submenu {display: block}
+    .menubar li:hover .dropdown_company {display: block}
+
+}

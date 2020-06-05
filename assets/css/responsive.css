@@ -1,0 +1,85 @@
+@media only screen and (max-width: 1199px){
+    .outer_banner_text{padding: 30px}
+    .welcome_box{padding: 115px 15px}
+    h2{font-size: 30px; margin-bottom: 15px}
+    .margin_bottom_30{margin-bottom: 15px}
+    .padding_top_100{padding-top: 75px}
+    .padding_bottom_100{padding-bottom: 75px}
+    .margin_bottom_50{margin-bottom: 30px}
+    h4{line-height: 24px}
+    .price_product_list{margin-bottom: 10px}
+    body{line-height: 20px}
+    .bg_whole_wheat_bread{padding-top: 100px; padding-bottom: 100px}
+    .our_bakers_section:before{background-size: 45%; top: -37.4%}
+    .bg_contact_form{padding-top: 100px; padding-bottom: 100px}
+    .order_1{order: 1}
+    .order_2{order: 2}
+    .navbar{background-color: #fff}
+    .bg_header{position: absolute}
+    .navbar-toggler{padding: 4px}
+    .padding_tb_30{padding: 20px 25px}
+
+}
+@media only screen and (max-width: 991px) {
+    .navbar-toggler-icon{background: url("../images/toogle_button.svg")}
+    .bg_home_page{background-position: left}
+    .welcome_img02 img{width: 100%}
+    .padding_left_0{padding-left: 15px}
+    .padding_right_0{padding-right: 15px}
+    h4{line-height: 18px}
+    .btn_blog_post{padding: 10px 30px}
+    .welcome_box{padding: 80px 15px}
+    .testimonial_image:before, .testimonial_content_quote:before{display: none}
+}
+@media only screen and (max-width: 767px){
+    .bg_home_page{background: url("../images/bg_mobile_home.jpg") no-repeat center; background-size: cover; height: 280px}
+    .white_border, .pink_border{border: none}
+    .outer_banner_text{background-color: transparent}
+    .inner_home_banner{text-align: left}
+    .outer_banner_text h1 small, .bg_menu_page h1 small, .bg_about_page h1 small, .bg_contact_page h1 small{font-size: 16px}
+    .outer_banner_text h1, .bg_menu_page h1, .bg_about_page h1, .bg_contact_page h1{font-size: 36px; margin-bottom: 15px; line-height: 36px}
+    body{font-size: 12px !important; font-weight: 400; line-height: 16px}
+    .btn_banner{padding: 9px 15px; font-size: 12px}
+    .inner_home_banner{padding-left: 110px}
+    .img_margin_top{margin-top: 25px}
+    .product_detail, .footer_links, .top_social_links, .bg_header:before{display: none}
+    .inner_product_list{text-align: left !important; margin-top: 15px}
+    .padding_bottom_100{padding-bottom: 50px}
+    .padding_top_100{padding-top: 50px}
+    .our_bakers_section:before{background-size: 25%; top: -38.6%}
+    .padding_top_50{padding-top: 0}
+    .our_backers_detail{text-align: center; margin-bottom: 30px}
+    h2{font-size: 20px}
+    .font_size_16{font-size: 12px}
+    .btn_our_bakers{padding: 10px 20px; font-size: 12px}
+    .outer_blog_post_box{margin-bottom: 30px}
+    .testimonial_indicators{bottom: -50px}
+    #testimonial_slider{margin-top: 50px}
+    .client_img{margin-bottom: 30px}
+    .client_img_box figure img{margin: 0 auto}
+    .bg_contact_form{padding-top: 50px; padding-bottom: 50px}
+    .margin_bottom_50{margin-bottom: 15px}
+    .line_height_30{line-height: 16px}
+    .margin_bottom_80{margin-bottom: 40px}
+    .contact_info{margin-bottom: 10px; padding: 10px; font-size: 12px}
+    .footer_logo>li{display: inline-block; vertical-align: middle; padding: 0 15px}
+    .footer_logo>li:first-child{padding-left: 0}
+    .footer_logo>li:last-child{padding-right: 0}
+    .footer_logo>li>a>figure>img{width: 60%}
+    .footer_logo{text-align: center}
+    .header_navigation .outer_menubar{background-color: #ff8c00; margin-top: 30px}
+    .header_navigation .menubar li:first-child a{margin-left: 10px}
+    .header_navigation .menubar li a{padding: 10px 0; margin: 0 10px}
+    .product_name{font-size: 16px; line-height: 24px}
+    .btn_product_box{font-size: 12px; padding: 5px 15px}
+    .welcome_img02 img{width: 100%}
+    .welcome_img01, .welcome_img03{display: none}
+    .flex_1{flex: none}
+    .second_order{order: 2}
+    .first_order{order: 1}
+    h4{font-size: 14px; line-height: 18px}
+
+}
+@media only screen and (max-width: 480px){
+
+}
