@@ -188,7 +188,7 @@ include './c_datos/dtProducto.php';
             </div>
             <div class="col-xl-4 col-lg-4 col-12 text-center flex_1">
                 <div class="welcome_box">
-                    <h2>Emporio maruri</h2>
+                    <h2>Demo Jenkins</h2>
                     <figure class="margin_bottom_30"><img src="assets/images/heading_bottom_img.png" alt=""></figure>
                     <p class="margin_bottom_30 font_size_16 font_weight_300">Somos un emporio familiar emplazado en un barrio historico de Santiago, atendemos todos los días de 09:00 am hasta las 02:00 am. Puedes contactarte con nosotros enviandonos un correo a contacto@emporiomaruri.cl</p>
                     <a href="#" class="btn_welcome_bakery">Enviar Correo</a>
