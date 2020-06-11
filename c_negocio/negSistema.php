@@ -52,8 +52,7 @@ class negSistema{
 	public static function sendMail($cabeceraIn,$to,$subjet,$body)
 	{
 		$test = false;
-		//$test = true;
-		// Para enviar un correo HTML, debe establecerse la cabecera Content-type
+		
 		$cabeceras  = 'MIME-Version: 1.0' . "\r\n";
 		$cabeceras .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
 		
