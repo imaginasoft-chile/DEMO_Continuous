@@ -23,7 +23,20 @@ class negSistema{
 	}	
 	public static function validaUsuario($correo,$clave)
 	{
-		//OLD
+		
+		$salida="OK";
+		if($correo=="")
+		{
+			$salida="ERROR";
+			if($clave=="NADA")
+			{
+				$salida="OK";
+			}
+
+		}
+
+		return $salida;
+		
 	}
 	
 	
