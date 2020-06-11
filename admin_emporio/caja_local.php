@@ -45,6 +45,9 @@ $rcv = negCaja::getCajaVentaAcumulado($cj[0]["accionid"]);
 	        		</div>
 	        		<div class="col-5" style="line-height: 0; ">
 	        			<table style="float: right;" >
+						<tr>
+							<th colspan="2">&nbsp;</th>
+						</tr>
 	        				<tr>
 	        					<td rowspan="3">
 	        						<img src="../images/icon_caja_2.png" style="height: 60px;" /> 
