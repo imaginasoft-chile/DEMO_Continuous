@@ -32,7 +32,7 @@
                 <div class="col"></div>
                 <div class="col-xl-8 col-lg-8">
                  <figure class="margin_bottom_50"><img src="../assets/images/heading_bottom_img.png" alt=""></figure>
-                    <h2 class="color_fff">Acceso al sistema</h2>
+                    <h2 class="color_fff">DEMO</h2>
                    
                     <img src="../images/logo.png" />
                     <p class="color_fff line_height_30">Ingresa tu nombre de usuario y clave para acceder al sistema.</p>
