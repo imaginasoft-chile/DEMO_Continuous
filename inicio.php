@@ -80,7 +80,7 @@ include './c_datos/dtProducto.php';
     <section class="padding_top_100 padding_bottom_80 text-center" data-scroll-index="0" id="section2">
         <div class="container">
             <figure style="margin-top: 30px;" ><img src="assets/images/heading_bottom_img.png" alt=""></figure>
-            <h2 class="margin_bottom_50">Emporio Maruri</h2>
+            <h2 class="margin_bottom_50">Demo PHP</h2>
             
             <?php 
             $productos = negProducto::getProductos();
