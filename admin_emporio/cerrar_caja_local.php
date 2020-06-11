@@ -9,11 +9,13 @@
 $cajaid=$_REQUEST["cajaid"];
 $cj = negCaja::getCajaDetail($cajaid);
 $rcv = negCaja::getCajaVentaAcumulado($cj[0]["accionid"]);
+
+$mto_inicio = $cj[0]["monto_inicio"];
 ?>
 <form name="frm_1" id="frm_1" role="form"  method="post" enctype="multipart/form-data">
 	<input type="hidden" name="acc" id="acc" value="CIERRACAJA" />
 	<input type="hidden" name="cjd" id=cjd value="<?php echo $cajaid;?>" />
-	<input type="hidden" name="monto_fin" id="monto_fin" value="<?php echo (FLOAT)$rcv[0]["total"]+(FLOAT)$cj[0]["monto_inicio"];?>" />	
+	<input type="hidden" name="monto_fin" id="monto_fin" value="<?php echo (FLOAT)$rcv[0]["total"]+(FLOAT)$mto_inicio;?>" />	
 
 	
 
@@ -83,7 +85,7 @@ $rcv = negCaja::getCajaVentaAcumulado($cj[0]["accionid"]);
 													MONTO INICIO
 												</strong>
 								            	<strong style="font-size: 20px;" class="pull-right">
-								      				$ <?php echo number_format($cj[0]["monto_inicio"],0,',','.');?>
+								      				$ <?php echo number_format($mto_inicio,0,',','.');?>
 								            	</strong>
 								        	</div>
 								        	<p>
@@ -119,7 +121,7 @@ $rcv = negCaja::getCajaVentaAcumulado($cj[0]["accionid"]);
 													TOTAL EN LA CAJA
 												</strong>
 								            	<strong style="font-size: 20px;" class="pull-right">
-								      				$ <?php echo number_format((FLOAT)$rcv[0]["total"]+(FLOAT)$cj[0]["monto_inicio"],0,',','.');?>
+								      				$ <?php echo number_format((FLOAT)$rcv[0]["total"]+(FLOAT)$mto_inicio,0,',','.');?>
 								            	</strong>
 								        	</div>
 								        	<p>
