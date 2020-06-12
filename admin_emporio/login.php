@@ -23,10 +23,7 @@
     
     <!--Ends Here-->
    
-    <table>
-    <tr><td>jkjkj</></tr>
-
-    </table>
+    
     
     <!--Contact Form-->
     <section class="bg_contact_form text-center" data-scroll-index="4">
@@ -35,7 +32,7 @@
                 <div class="col"></div>
                 <div class="col-xl-8 col-lg-8">
                  <figure class="margin_bottom_50"><img src="../assets/images/heading_bottom_img.png" alt=""></figure>
-                    <h2 class="color_fff">DEMO BIENVENIDA</h2>
+                    <h2 class="color_fff">Acceso al Sistema</h2>
                    
                     <img src="../images/logo.png" />
                     <p class="color_fff line_height_30">Ingresa tu nombre de usuario y clave para acceder al sistema.</p>
